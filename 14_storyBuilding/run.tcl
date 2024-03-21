@@ -27,7 +27,7 @@ puts "MODEL $modelType CREATING..."
 
 set tagModel 1;	# Do not change
 
-set masterNodeFlag 1;	# 1 to add a single node at the base (rotation at the base), 0 if no master node at the base is required
+set masterNodeFlag 0;	# 1 to add a single node at the base (rotation at the base), 0 if no master node at the base is required
 
 source BTMroutines.tcl
 
